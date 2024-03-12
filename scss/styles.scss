@@ -223,22 +223,9 @@ footer {
   color: aliceblue;
   display: flex;
   align-items: center;
+  justify-content:center;
   position: sticky;
   bottom: 0;
-  p {
-    position: relative;
-    animation: move 50s infinite;
-    @keyframes move {
-      from {
-        left: 0px;
-      }
-
-      to {
-        left: 80%;
-        color: #333;
-      }
-    }
-  }
 }
 
 /************ RESPONSIVENESS *************/
