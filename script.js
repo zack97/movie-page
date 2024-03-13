@@ -88,7 +88,7 @@ collection.forEach((movie, index) => {
 
   const button = document.createElement("button");
   const a = document.createElement("a");
-  a.setAttribute("href", "#");
+  a.setAttribute("href", movie.href);
   a.textContent = "Watch";
   button.appendChild(a);
 
