@@ -264,19 +264,9 @@ footer {
   color: aliceblue;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   position: sticky;
   bottom: 0;
-}
-
-@keyframes move {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 80%;
-    color: #333;
-  }
 }
 
 /************ RESPONSIVENESS *************/
@@ -290,5 +280,10 @@ footer {
   main article {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 475px) {
+  header {
+    font-size: 10px;
   }
 }
